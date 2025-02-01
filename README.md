@@ -1,110 +1,33 @@
-# Loan-Eligibility-Prediction-using-Gradient-Boosting-Classifier
+# Loan Approval/Eligibility Prediction Model
 
-# Execution Instructions
+## Project Overview
 
+This project involves developing a machine learning model to predict whether a loan should be granted to a customer based on various factors, such as credit history, income, loan amount, and employment details. The dataset used is a synthetic dataset of over 100,000 loan records, designed to mimic real-world loan data, to determine the best way to predict loan eligibility.
 
+## Responsibilities
 
-# Python version 3.8.10
+- **Data Exploration & Preprocessing**  
+  - Cleaned and processed a dataset with over 100,000 records, which included features like loan status, credit score, income, loan amount, and employment data.
+  - Addressed missing values, outliers, and applied necessary data transformations.
 
-To create a virtual environment and install requirements in Python 3.8.10 on different operating systems, follow the instructions below:
+- **Feature Engineering**  
+  - Engineered relevant features, including loan amount, credit score, homeownership status, annual income, monthly debt, and others to improve the model’s prediction accuracy.
 
-### For Windows:
+- **Model Development**  
+  - Built a classification model to predict loan eligibility using techniques such as logistic regression, decision trees, and ensemble methods.
+  
+- **Model Evaluation**  
+  - Evaluated the model's performance using accuracy, aiming for a minimum of 70% accuracy.
+  - Fine-tuned model hyperparameters to enhance prediction results.
 
-Open the Command Prompt by pressing Win + R, typing "cmd", and pressing Enter.
+- **Outcome**  
+  - The final model successfully predicted loan eligibility, providing a data-driven approach to the loan approval process and improving risk management for the company.
 
-Change the directory to the desired location for your project:
+## Tech Stack
 
-`cd C:\path\to\project`
+- **Languages**: Python  
+- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn
 
-Create a new virtual environment using the venv module:
+## Evaluation Criteria
 
-`python -m venv myenv`
-
-Activate the virtual environment:
-
-`myenv\Scripts\activate`
-
-Install the project requirements using pip:
-
-`pip install -r requirements.txt`
-
-
-### For Linux/Mac:
-
-Open a terminal.
-
-Change the directory to the desired location for your project:
-
-`cd /path/to/project`
-
-Create a new virtual environment using the venv module:
-
-`python3 -m venv myenv`
-
-Activate the virtual environment:
-
-`source myenv/bin/activate`
-
-Install the project requirements using pip:
-
-`pip install -r requirements.txt`
-
-These instructions assume you have Python 3.8.10 installed and added to your system's PATH variable.
-
-
-## Execution Instructions if Multiple Python Versions Installed
-
-
-If you have multiple Python versions installed on your system , you can use the Python Launcher to create a virtual environment with Python 3.8.10, you can specify the version using the -p or --python flag. Follow the instructions below:
-
-### For Windows:
-
-Open the Command Prompt by pressing Win + R, typing "cmd", and pressing Enter.
-
-Change the directory to the desired location for your project:
-
-`cd C:\path\to\project`
-
-Create a new virtual environment using the Python Launcher:
-
-`py -3.8 -m venv myenv`
-
-Note: Replace myenv with your desired virtual environment name.
-
-Activate the virtual environment:
-
-`myenv\Scripts\activate`
-
-Install the project requirements using pip:
-
-`pip install -r requirements.txt`
-
-
-For Linux/Mac:
-
-Open a terminal.
-
-Change the directory to the desired location for your project:
-
-`cd /path/to/project`
-
-Create a new virtual environment using the Python Launcher:
-
-`python3.8 -m venv myenv`
-Note: Replace myenv with your desired virtual environment name.
-
-Activate the virtual environment:
-
-`source myenv/bin/activate`
-Install the project requirements using pip:
-
-`pip install -r requirements.txt`
-
-
-By specifying the version using py -3.8 or python3.8, you can ensure that the virtual environment is created using Python 3.8.10 specifically, even if you have other Python versions installed.
-
-
-
-
-
-
+The model was considered successful with an accuracy rate of at least 70%.
